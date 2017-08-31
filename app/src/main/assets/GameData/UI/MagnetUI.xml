@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<element type="Window">
+	<attribute name="Name" value="Magnet" />
+	<attribute name="Position" value="593 185" />
+	<attribute name="Size" value="358 216" />
+	<attribute name="Is Movable" value="true" />
+	<attribute name="Is Resizable" value="true" />
+	<element type="Text">
+		<attribute name="Name" value="Text_Magnet_Option" />
+		<attribute name="Position" value="40 20" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="13" />
+		<attribute name="Text" value="Magnet option" />
+		<attribute name="Text Effect" value="Stroke" />
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Magnet_Field" />
+		<attribute name="Position" value="20 60" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="Magnetic field B - [T]" />
+		<element type="LineEdit">
+			<attribute name="Name" value="Edit_Magnet_Field" />
+			<attribute name="Position" value="170 -1" />
+			<attribute name="Size" value="40 20" />
+			<attribute name="Horiz Alignment" value="Center" />
+			<element type="Text" internal="true" style="none">
+				<attribute name="Top Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Top Right Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Right Color" value="0.9 1 0.9 1" />
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Size" value="4 15" />
+			</element>
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Magnet_Top_Polarity" />
+		<attribute name="Position" value="20 80" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="Top polarity" />
+		<element type="Text">
+			<attribute name="Name" value="Text_Magnet_Top_Polarity_Value" />
+			<attribute name="Position" value="240 0" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="North" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Magnet_Bottom_Polarity" />
+		<attribute name="Position" value="20 100" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="Bottom polarity" />
+		<element type="Text">
+			<attribute name="Name" value="Text_Magnet_Bottom_Polarity_Value" />
+			<attribute name="Position" value="240 0" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="South" />
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="Button_Magnet_Change_Polarity" />
+		<attribute name="Position" value="20 120" />
+		<attribute name="Size" value="150 30" />
+		<element type="Text">
+			<attribute name="Name" value="Button_Manget_Change_Polarity_Text" />
+			<attribute name="Horiz Alignment" value="Center" />
+			<attribute name="Vert Alignment" value="Center" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="Change polarity" />
+		</element>
+	</element>
+	<element type="Button" style="CloseButton">
+		<attribute name="Name" value="Button_Magnet_Close" />
+		<attribute name="Position" value="-2 2" />
+		<attribute name="Horiz Alignment" value="Right" />
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="Button_Magnet_Apply" />
+		<attribute name="Position" value="20 160" />
+		<attribute name="Size" value="150 30" />
+		<element type="Text">
+			<attribute name="Name" value="Button_Magnet_Apply_Text" />
+			<attribute name="Horiz Alignment" value="Center" />
+			<attribute name="Vert Alignment" value="Center" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="Apply" />
+		</element>
+	</element>
+</element>

@@ -1,0 +1,494 @@
+<?xml version="1.0"?>
+<element type="Window">
+	<attribute name="Name" value="Contour" />
+	<attribute name="Size" value="1824 712" />
+	<attribute name="Min Anchor" value="0.5 0.5" />
+	<attribute name="Max Anchor" value="1.45 1.2" />
+	<attribute name="Pivot" value="0.5 0.5" />
+	<attribute name="Enable Anchor" value="true" />
+	<attribute name="Is Movable" value="true" />
+	<attribute name="Is Resizable" value="true" />
+	<element type="Button">
+		<attribute name="Name" value="Button_Contour_Close" />
+		<attribute name="Size" value="547 71" />
+		<attribute name="Min Anchor" value="0.35 0.9" />
+		<attribute name="Max Anchor" value="0.65 1" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<element type="Text">
+			<attribute name="Name" value="Button_Contour_Close_Text" />
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="25" />
+			<attribute name="Text" value="Close" />
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="Button_Contour_Reset" />
+		<attribute name="Size" value="528 71" />
+		<attribute name="Min Anchor" value="0.01 0.9" />
+		<attribute name="Max Anchor" value="0.3 1" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<element type="Text">
+			<attribute name="Name" value="Button_Contour_Reset_Text" />
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="25" />
+			<attribute name="Text" value="Reset" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Option" />
+		<attribute name="Min Anchor" value="0.03 0.01" />
+		<attribute name="Max Anchor" value="0.9 1" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="25" />
+		<attribute name="Text" value="Contour option" />
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Amperes_Force" />
+		<attribute name="Min Anchor" value="0.1 0.65" />
+		<attribute name="Max Anchor" value="0.9 1" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="20" />
+		<attribute name="Text" value="Ampere's force F - [N]" />
+		<element type="Text">
+			<attribute name="Name" value="Text_Contour_Amperes_Force_Value" />
+			<attribute name="Min Anchor" value="0.6 0" />
+			<attribute name="Max Anchor" value="1 0" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="25" />
+			<attribute name="Text" value="0" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Width" />
+		<attribute name="Min Anchor" value="0.1 0.1" />
+		<attribute name="Max Anchor" value="0.9 0.3" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="20" />
+		<attribute name="Text" value="Width b - [m]" />
+		<element type="LineEdit">
+			<attribute name="Name" value="Edit_Contour_Width" />
+			<attribute name="Size" value="583 27" />
+			<attribute name="Min Anchor" value="0.8 0" />
+			<attribute name="Max Anchor" value="1.2 1.5" />
+			<attribute name="Pivot" value="0.5 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<attribute name="Layout Spacing" value="1" />
+			<attribute name="Indent Spacing" value="0" />
+			<element type="Text" internal="true" style="none">
+				<attribute name="Min Anchor" value="0 0.5" />
+				<attribute name="Max Anchor" value="0 0.5" />
+				<attribute name="Pivot" value="0 0.5" />
+				<attribute name="Top Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Top Right Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Right Color" value="0.9 1 0.9 1" />
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Size" value="4 15" />
+				<attribute name="Min Anchor" value="0 0.5" />
+				<attribute name="Max Anchor" value="0 0.5" />
+				<attribute name="Pivot" value="0 0.5" />
+			</element>
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Height" />
+		<attribute name="Min Anchor" value="0.1 0.15" />
+		<attribute name="Max Anchor" value="0.9 0.4" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="20" />
+		<attribute name="Text" value="Height a - [m]" />
+		<element type="LineEdit">
+			<attribute name="Name" value="Countour_Edit_Height" />
+			<attribute name="Size" value="583 27" />
+			<attribute name="Min Anchor" value="0.8 0" />
+			<attribute name="Max Anchor" value="1.2 1.5" />
+			<attribute name="Pivot" value="0.5 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<element type="Text" internal="true" style="none">
+				<attribute name="Min Anchor" value="0 0.5" />
+				<attribute name="Max Anchor" value="0 0.5" />
+				<attribute name="Pivot" value="0 0.5" />
+				<attribute name="Top Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Top Right Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Right Color" value="0.9 1 0.9 1" />
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Size" value="4 15" />
+				<attribute name="Min Anchor" value="0 0.5" />
+				<attribute name="Max Anchor" value="0 0.5" />
+				<attribute name="Pivot" value="0 0.5" />
+			</element>
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Area" />
+		<attribute name="Min Anchor" value="0.1 0.2" />
+		<attribute name="Max Anchor" value="1 0.9" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="20" />
+		<attribute name="Text" value="Cross sectional area - [m^2]" />
+		<element type="LineEdit">
+			<attribute name="Name" value="Countour_Edit_Area" />
+			<attribute name="Size" value="590 27" />
+			<attribute name="Min Anchor" value="0.71 0" />
+			<attribute name="Max Anchor" value="1.07 1.5" />
+			<attribute name="Pivot" value="0.5 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<element type="Text" internal="true" style="none">
+				<attribute name="Min Anchor" value="0 0.5" />
+				<attribute name="Max Anchor" value="0 0.5" />
+				<attribute name="Pivot" value="0 0.5" />
+				<attribute name="Top Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Top Right Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Right Color" value="0.9 1 0.9 1" />
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Size" value="4 15" />
+				<attribute name="Min Anchor" value="0 0.5" />
+				<attribute name="Max Anchor" value="0 0.5" />
+				<attribute name="Pivot" value="0 0.5" />
+			</element>
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Mass" />
+		<attribute name="Min Anchor" value="0.1 0.25" />
+		<attribute name="Max Anchor" value="0.9 1" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="20" />
+		<attribute name="Text" value="Mass - [kg]" />
+		<element type="Text">
+			<attribute name="Name" value="Text_Countour_Mass" />
+			<attribute name="Min Anchor" value="0.6 0" />
+			<attribute name="Max Anchor" value="1 0" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="25" />
+			<attribute name="Text" value="0" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Intertia_Moment" />
+		<attribute name="Min Anchor" value="0.1 0.3" />
+		<attribute name="Max Anchor" value="0.9 1" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="20" />
+		<attribute name="Text" value="Rotational inertia - [kg * m^2]" />
+		<element type="LineEdit">
+			<attribute name="Name" value="Edit_Contour_Intertia_Moment" />
+			<attribute name="Size" value="583 27" />
+			<attribute name="Min Anchor" value="0.8 0" />
+			<attribute name="Max Anchor" value="1.2 1.5" />
+			<attribute name="Pivot" value="0.5 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<element type="Text" internal="true" style="none">
+				<attribute name="Min Anchor" value="0 0.5" />
+				<attribute name="Max Anchor" value="0 0.5" />
+				<attribute name="Pivot" value="0 0.5" />
+				<attribute name="Top Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Top Right Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Right Color" value="0.9 1 0.9 1" />
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Size" value="4 15" />
+				<attribute name="Min Anchor" value="0 0.5" />
+				<attribute name="Max Anchor" value="0 0.5" />
+				<attribute name="Pivot" value="0 0.5" />
+			</element>
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="Button_Contour_Apply" />
+		<attribute name="Size" value="547 71" />
+		<attribute name="Min Anchor" value="0.69 0.9" />
+		<attribute name="Max Anchor" value="0.99 1" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<element type="Text">
+			<attribute name="Name" value="Button_Contour_Apply_Text" />
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="25" />
+			<attribute name="Text" value="Apply" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Acceleration" />
+		<attribute name="Min Anchor" value="0.1 0.37" />
+		<attribute name="Max Anchor" value="0.9 0.5" />
+		<attribute name="Pivot" value="0 0.5" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="20" />
+		<attribute name="Text" value="Angular acc-tion - e - [Rad/s^2]" />
+		<element type="Text">
+			<attribute name="Name" value="Text_Contour_Acceleration_Value" />
+			<attribute name="Min Anchor" value="0.6 0" />
+			<attribute name="Max Anchor" value="1 1" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="25" />
+			<attribute name="Text" value="0" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Angular_Velocity" />
+		<attribute name="Min Anchor" value="0.1 0.45" />
+		<attribute name="Max Anchor" value="0.9 1" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="20" />
+		<attribute name="Text" value="Angular velocity w - [Rad/s]" />
+		<element type="Text">
+			<attribute name="Name" value="Text_Contour_Angular_Velocity_Value" />
+			<attribute name="Min Anchor" value="0.6 0" />
+			<attribute name="Max Anchor" value="1 1" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="25" />
+			<attribute name="Text" value="0" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Torque" />
+		<attribute name="Min Anchor" value="0.1 0.5" />
+		<attribute name="Max Anchor" value="0.9 0.6" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="20" />
+		<attribute name="Text" value="Torque - M [N * m]" />
+		<element type="Text">
+			<attribute name="Name" value="Text_Contour_Torque_Value" />
+			<attribute name="Min Anchor" value="0.6 0" />
+			<attribute name="Max Anchor" value="1 1" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="25" />
+			<attribute name="Text" value="0" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Gravity" />
+		<attribute name="Min Anchor" value="0.1 0.7" />
+		<attribute name="Max Anchor" value="0.9 0.8" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="20" />
+		<attribute name="Text" value="Gravity - [m/s^2]" />
+		<element type="LineEdit">
+			<attribute name="Name" value="Edit_Countour_Gravity" />
+			<attribute name="Size" value="583 27" />
+			<attribute name="Min Anchor" value="0.8 0" />
+			<attribute name="Max Anchor" value="1.2 1.5" />
+			<attribute name="Pivot" value="0.5 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<element type="Text" internal="true" style="none">
+				<attribute name="Min Anchor" value="0 0.5" />
+				<attribute name="Max Anchor" value="0 0.5" />
+				<attribute name="Pivot" value="0 0.5" />
+				<attribute name="Top Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Top Right Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Right Color" value="0.9 1 0.9 1" />
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Size" value="4 15" />
+				<attribute name="Min Anchor" value="0 0.5" />
+				<attribute name="Max Anchor" value="0 0.5" />
+				<attribute name="Pivot" value="0 0.5" />
+			</element>
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Density" />
+		<attribute name="Min Anchor" value="0.1 0.4" />
+		<attribute name="Max Anchor" value="0.9 0.4" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="20" />
+		<attribute name="Text" value="Density - [kg/m^3]" />
+		<element type="LineEdit">
+			<attribute name="Name" value="Countour_Edit_Density" />
+			<attribute name="Size" value="583 27" />
+			<attribute name="Min Anchor" value="0.8 0" />
+			<attribute name="Max Anchor" value="1.2 1.5" />
+			<attribute name="Pivot" value="0.5 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<element type="Text" internal="true" style="none">
+				<attribute name="Min Anchor" value="0 0.5" />
+				<attribute name="Max Anchor" value="0 0.5" />
+				<attribute name="Pivot" value="0 0.5" />
+				<attribute name="Top Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Top Right Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Right Color" value="0.9 1 0.9 1" />
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Size" value="4 15" />
+				<attribute name="Min Anchor" value="0 0.5" />
+				<attribute name="Max Anchor" value="0 0.5" />
+				<attribute name="Pivot" value="0 0.5" />
+			</element>
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_System_Friction" />
+		<attribute name="Min Anchor" value="0.1 0.55" />
+		<attribute name="Max Anchor" value="0.9 0.65" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="20" />
+		<attribute name="Text" value="System friction - gamma" />
+		<element type="LineEdit">
+			<attribute name="Name" value="Edit_Contour_System_Friction" />
+			<attribute name="Size" value="583 27" />
+			<attribute name="Min Anchor" value="0.8 0" />
+			<attribute name="Max Anchor" value="1.2 1.5" />
+			<attribute name="Pivot" value="0.5 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<element type="Text" internal="true" style="none">
+				<attribute name="Min Anchor" value="0 0.5" />
+				<attribute name="Max Anchor" value="0 0.5" />
+				<attribute name="Pivot" value="0 0.5" />
+				<attribute name="Top Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Top Right Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Right Color" value="0.9 1 0.9 1" />
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Size" value="4 15" />
+				<attribute name="Min Anchor" value="0 0.5" />
+				<attribute name="Max Anchor" value="0 0.5" />
+				<attribute name="Pivot" value="0 0.5" />
+			</element>
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_a_koef" />
+		<attribute name="Min Anchor" value="0.1 0.6" />
+		<attribute name="Max Anchor" value="0.9 1" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="20" />
+		<attribute name="Text" value="a (Amperes force/Gravity force)" />
+		<element type="Text">
+			<attribute name="Name" value="Text_Contour_a_koef_value" />
+			<attribute name="Min Anchor" value="0.6 0" />
+			<attribute name="Max Anchor" value="1 1" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="25" />
+			<attribute name="Text" value="0" />
+		</element>
+	</element>
+</element>

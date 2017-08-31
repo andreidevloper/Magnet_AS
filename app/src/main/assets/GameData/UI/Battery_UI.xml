@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<element type="Window">
+	<attribute name="Name" value="Battery" />
+	<attribute name="Size" value="1824 712" />
+	<attribute name="Min Anchor" value="0.5 0.5" />
+	<attribute name="Max Anchor" value="1.45 1.2" />
+	<attribute name="Pivot" value="0.5 0.5" />
+	<attribute name="Enable Anchor" value="true" />
+	<attribute name="Is Movable" value="true" />
+	<attribute name="Is Resizable" value="true" />
+	<element type="Button">
+		<attribute name="Name" value="Button_Battery_Close" />
+		<attribute name="Size" value="547 71" />
+		<attribute name="Min Anchor" value="0.35 0.9" />
+		<attribute name="Max Anchor" value="0.65 1" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<element type="Text">
+			<attribute name="Name" value="Button_Battery_Close_Text" />
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="25" />
+			<attribute name="Text" value="Close" />
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="Button_Battery_Enable_Circuit" />
+		<attribute name="Size" value="528 71" />
+		<attribute name="Min Anchor" value="0.01 0.9" />
+		<attribute name="Max Anchor" value="0.3 1" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<element type="Text">
+			<attribute name="Name" value="Button_Battery_Enable_Circuit_Text" />
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="25" />
+			<attribute name="Text" value="On/Off circuit" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Battery_Option" />
+		<attribute name="Min Anchor" value="0.03 0.01" />
+		<attribute name="Max Anchor" value="0.9 1" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="25" />
+		<attribute name="Text" value="Battery option" />
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Battery_Intensity" />
+		<attribute name="Min Anchor" value="0.1 0.1" />
+		<attribute name="Max Anchor" value="0.9 0.3" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="20" />
+		<attribute name="Text" value="Current intensity I - [A]" />
+		<element type="LineEdit">
+			<attribute name="Name" value="Edit_Battery_Intensity" />
+			<attribute name="Size" value="583 27" />
+			<attribute name="Min Anchor" value="0.8 0" />
+			<attribute name="Max Anchor" value="1.2 1.5" />
+			<attribute name="Pivot" value="0.5 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<attribute name="Layout Spacing" value="1" />
+			<attribute name="Indent Spacing" value="0" />
+			<element type="Text" internal="true" style="none">
+				<attribute name="Min Anchor" value="0 0.5" />
+				<attribute name="Max Anchor" value="0 0.5" />
+				<attribute name="Pivot" value="0 0.5" />
+				<attribute name="Top Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Top Right Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Right Color" value="0.9 1 0.9 1" />
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Size" value="4 15" />
+				<attribute name="Min Anchor" value="0 0.5" />
+				<attribute name="Max Anchor" value="0 0.5" />
+				<attribute name="Pivot" value="0 0.5" />
+			</element>
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Battery_Intensity_Direction" />
+		<attribute name="Min Anchor" value="0.1 0.15" />
+		<attribute name="Max Anchor" value="0.9 1" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="20" />
+		<attribute name="Text" value="Current intensity direction" />
+		<element type="Text">
+			<attribute name="Name" value="Text_Battery_Intensity_Direction_Value" />
+			<attribute name="Min Anchor" value="0.6 0" />
+			<attribute name="Max Anchor" value="1 0" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="25" />
+			<attribute name="Text" value="CW" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Battery_Intensity_Status" />
+		<attribute name="Min Anchor" value="0.1 0.2" />
+		<attribute name="Max Anchor" value="0.9 1" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="20" />
+		<attribute name="Text" value="Current intensity status" />
+		<element type="Text">
+			<attribute name="Name" value="Text_Battery_Intensity_Status_Value" />
+			<attribute name="Min Anchor" value="0.6 0" />
+			<attribute name="Max Anchor" value="1 0" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="25" />
+			<attribute name="Text" value="0" />
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="Button_Battery_Apply" />
+		<attribute name="Size" value="547 71" />
+		<attribute name="Min Anchor" value="0.69 0.9" />
+		<attribute name="Max Anchor" value="0.99 1" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<element type="Text">
+			<attribute name="Name" value="Button_Battery_Apply_Text" />
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="25" />
+			<attribute name="Text" value="Apply" />
+		</element>
+	</element>
+</element>

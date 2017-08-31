@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<element type="Window">
+	<attribute name="Name" value="MainMenu" />
+	<attribute name="Size" value="400 300" />
+	<attribute name="Min Anchor" value="1 1" />
+	<attribute name="Max Anchor" value="1 1" />
+	<attribute name="Pivot" value="1 1" />
+	<element type="Button">
+		<attribute name="Name" value="Contour_Button" />
+		<attribute name="Size" value="400 100" />
+		<attribute name="Min Anchor" value="0.5 0" />
+		<attribute name="Max Anchor" value="0.5 0" />
+		<attribute name="Pivot" value="0.5 0" />
+		<attribute name="Color" value="0.2 0.2 0.2 1" />
+		<attribute name="Top Left Color" value="0.2 0.2 0.2 1" />
+		<attribute name="Top Right Color" value="0.2 0.2 0.2 1" />
+		<attribute name="Bottom Left Color" value="0.2 0.2 0.2 1" />
+		<attribute name="Bottom Right Color" value="0.2 0.2 0.2 1" />
+		<attribute name="Use Derived Opacity" value="false" />
+		<attribute name="Blend Mode" value="add" />
+		<element type="Text">
+			<attribute name="Name" value="Contour_Text" />
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Color" value="1 1 1 1" />
+			<attribute name="Layout Mode" value="Horizontal" />
+			<attribute name="Font" value="Font;Fonts/bluehighway.ttf" />
+			<attribute name="Font Size" value="25" />
+			<attribute name="Text" value="CONTOUR" />
+			<attribute name="Selection Color" value="1 1 1 1" />
+			<attribute name="Text Effect" value="Shadow" />
+			<attribute name="Shadow Offset" value="2 2" />
+			<attribute name="Round Stroke" value="true" />
+			<attribute name="Effect Color" value="0.1 0.1 0.1 1" />
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="Battery_Button" />
+		<attribute name="Size" value="400 100" />
+		<attribute name="Min Anchor" value="0.5 0.5" />
+		<attribute name="Max Anchor" value="0.5 0.5" />
+		<attribute name="Pivot" value="0.5 0.5" />
+		<attribute name="Color" value="0.2 0.2 0.2 1" />
+		<attribute name="Top Left Color" value="0.2 0.2 0.2 1" />
+		<attribute name="Top Right Color" value="0.2 0.2 0.2 1" />
+		<attribute name="Bottom Left Color" value="0.2 0.2 0.2 1" />
+		<attribute name="Bottom Right Color" value="0.2 0.2 0.2 1" />
+		<attribute name="Blend Mode" value="addalpha" />
+		<element type="Text">
+			<attribute name="Name" value="Battery_Text" />
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Color" value="1 1 1 1" />
+			<attribute name="Layout Mode" value="Horizontal" />
+			<attribute name="Font" value="Font;Fonts/bluehighway.ttf" />
+			<attribute name="Font Size" value="25" />
+			<attribute name="Text" value="BATTERY" />
+			<attribute name="Selection Color" value="1 1 1 1" />
+			<attribute name="Text Effect" value="Shadow" />
+			<attribute name="Shadow Offset" value="2 2" />
+			<attribute name="Round Stroke" value="true" />
+			<attribute name="Effect Color" value="0.1 0.1 0.1 1" />
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="Magnet_Button" />
+		<attribute name="Position" value="1 1" />
+		<attribute name="Size" value="399 100" />
+		<attribute name="Min Anchor" value="0.5 1" />
+		<attribute name="Max Anchor" value="2 1.38" />
+		<attribute name="Min Offset" value="1 1" />
+		<attribute name="Pivot" value="0.5 1" />
+		<attribute name="Color" value="0.2 0.2 0.2 1" />
+		<attribute name="Top Left Color" value="0.2 0.2 0.2 1" />
+		<attribute name="Top Right Color" value="0.2 0.2 0.2 1" />
+		<attribute name="Bottom Left Color" value="0.2 0.2 0.2 1" />
+		<attribute name="Bottom Right Color" value="0.2 0.2 0.2 1" />
+		<attribute name="Blend Mode" value="addalpha" />
+		<element type="Text">
+			<attribute name="Name" value="Magnet_Text" />
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Color" value="1 1 1 1" />
+			<attribute name="Layout Mode" value="Horizontal" />
+			<attribute name="Font" value="Font;Fonts/bluehighway.ttf" />
+			<attribute name="Font Size" value="25" />
+			<attribute name="Text" value="MAGNET" />
+			<attribute name="Selection Color" value="1 1 1 1" />
+			<attribute name="Text Effect" value="Shadow" />
+			<attribute name="Shadow Offset" value="2 2" />
+			<attribute name="Round Stroke" value="true" />
+			<attribute name="Effect Color" value="0.1 0.1 0.1 1" />
+		</element>
+	</element>
+</element>

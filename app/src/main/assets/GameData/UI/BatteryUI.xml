@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<element type="Window">
+	<attribute name="Name" value="Battery" />
+	<attribute name="Position" value="787 144" />
+	<attribute name="Size" value="374 247" />
+	<attribute name="Is Movable" value="true" />
+	<attribute name="Is Resizable" value="true" />
+	<element type="Text">
+		<attribute name="Name" value="Text_Battery_Option" />
+		<attribute name="Position" value="40 20" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="13" />
+		<attribute name="Text" value="Battery option" />
+		<attribute name="Text Effect" value="Stroke" />
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Battery_Intensity" />
+		<attribute name="Position" value="20 60" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="Current intensity I - [A]" />
+		<element type="LineEdit">
+			<attribute name="Name" value="Edit_Battery_Intensity" />
+			<attribute name="Position" value="150 -1" />
+			<attribute name="Size" value="40 20" />
+			<attribute name="Horiz Alignment" value="Center" />
+			<element type="Text" internal="true" style="none">
+				<attribute name="Top Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Top Right Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Right Color" value="0.9 1 0.9 1" />
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Size" value="4 15" />
+			</element>
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Battery_Intensity_Direction" />
+		<attribute name="Position" value="20 80" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="Current intensity direction" />
+		<element type="Text">
+			<attribute name="Name" value="Text_Battery_Intensity_Direction_Value" />
+			<attribute name="Position" value="235 0" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="CW" />
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="Button_Battery_Change_Intensity_Direction" />
+		<attribute name="Position" value="20 120" />
+		<attribute name="Size" value="150 30" />
+		<element type="Text">
+			<attribute name="Name" value="Button_Battery_Change_Direction_Text" />
+			<attribute name="Horiz Alignment" value="Center" />
+			<attribute name="Vert Alignment" value="Center" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="Change direction" />
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="Button_Battery_Enable_Circuit" />
+		<attribute name="Position" value="20 160" />
+		<attribute name="Size" value="200 30" />
+		<element type="Text">
+			<attribute name="Name" value="Button_Battery_Enable_Circuit_Text" />
+			<attribute name="Horiz Alignment" value="Center" />
+			<attribute name="Vert Alignment" value="Center" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="Enable/Disable circuit" />
+		</element>
+	</element>
+	<element type="Button" style="CloseButton">
+		<attribute name="Name" value="Button_Battery_Close" />
+		<attribute name="Position" value="-2 2" />
+		<attribute name="Horiz Alignment" value="Right" />
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="Button_Battery_Apply" />
+		<attribute name="Position" value="20 200" />
+		<attribute name="Size" value="150 30" />
+		<element type="Text">
+			<attribute name="Name" value="Button_Battery_Apply_Text" />
+			<attribute name="Horiz Alignment" value="Center" />
+			<attribute name="Vert Alignment" value="Center" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="Apply" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Battery_Intensity_Status" />
+		<attribute name="Position" value="20 100" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="Current intensity status" />
+		<element type="Text">
+			<attribute name="Name" value="Text_Battery_Intensity_Status_Value" />
+			<attribute name="Position" value="235 0" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="Off" />
+		</element>
+	</element>
+</element>

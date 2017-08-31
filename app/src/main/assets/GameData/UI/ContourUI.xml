@@ -1,0 +1,341 @@
+<?xml version="1.0"?>
+<element type="Window">
+	<attribute name="Name" value="Contour" />
+	<attribute name="Position" value="990 156" />
+	<attribute name="Size" value="473 478" />
+	<attribute name="Is Movable" value="true" />
+	<attribute name="Is Resizable" value="true" />
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Option" />
+		<attribute name="Position" value="40 20" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="13" />
+		<attribute name="Text" value="Contour option" />
+		<attribute name="Text Effect" value="Stroke" />
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Amperes_Force" />
+		<attribute name="Position" value="20 180" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="Ampere's force F - [N]" />
+		<element type="Text">
+			<attribute name="Name" value="Text_Contour_Amperes_Force_Value" />
+			<attribute name="Position" value="265 1" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="0" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Width" />
+		<attribute name="Position" value="20 60" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="Width b - [m]" />
+		<element type="LineEdit">
+			<attribute name="Name" value="Edit_Contour_Width" />
+			<attribute name="Position" value="230 -1" />
+			<attribute name="Size" value="40 20" />
+			<attribute name="Horiz Alignment" value="Center" />
+			<element type="Text" internal="true" style="none">
+				<attribute name="Top Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Top Right Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Right Color" value="0.9 1 0.9 1" />
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Size" value="4 15" />
+			</element>
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Height" />
+		<attribute name="Position" value="20 80" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="Height a - [m]" />
+		<element type="LineEdit">
+			<attribute name="Name" value="Countour_Edit_Height" />
+			<attribute name="Position" value="226 -1" />
+			<attribute name="Size" value="40 20" />
+			<attribute name="Horiz Alignment" value="Center" />
+			<element type="Text" internal="true" style="none">
+				<attribute name="Top Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Top Right Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Right Color" value="0.9 1 0.9 1" />
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Size" value="4 15" />
+			</element>
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Area" />
+		<attribute name="Position" value="20 100" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="Cross sectional area - [m^2]" />
+		<element type="LineEdit">
+			<attribute name="Name" value="Countour_Edit_Area" />
+			<attribute name="Position" value="170 -1" />
+			<attribute name="Size" value="40 20" />
+			<attribute name="Horiz Alignment" value="Center" />
+			<element type="Text" internal="true" style="none">
+				<attribute name="Top Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Top Right Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Right Color" value="0.9 1 0.9 1" />
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Size" value="4 15" />
+			</element>
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Density" />
+		<attribute name="Position" value="20 120" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="Density - [kg/m^3]" />
+		<element type="LineEdit">
+			<attribute name="Name" value="Countour_Edit_Density" />
+			<attribute name="Position" value="210 -1" />
+			<attribute name="Size" value="40 20" />
+			<attribute name="Horiz Alignment" value="Center" />
+			<element type="Text" internal="true" style="none">
+				<attribute name="Top Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Top Right Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Right Color" value="0.9 1 0.9 1" />
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Size" value="4 15" />
+			</element>
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Mass" />
+		<attribute name="Position" value="20 140" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="Mass - [kg]" />
+		<element type="Text">
+			<attribute name="Name" value="Text_Countour_Mass" />
+			<attribute name="Position" value="264 0" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="0" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Intertia_Moment" />
+		<attribute name="Position" value="20 160" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="Rotational inertia - [kg * m^2]" />
+		<element type="LineEdit">
+			<attribute name="Name" value="Edit_Contour_Intertia_Moment" />
+			<attribute name="Position" value="158 -1" />
+			<attribute name="Size" value="40 20" />
+			<attribute name="Horiz Alignment" value="Center" />
+			<element type="Text" internal="true" style="none">
+				<attribute name="Top Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Top Right Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Right Color" value="0.9 1 0.9 1" />
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Size" value="4 15" />
+			</element>
+		</element>
+	</element>
+	<element type="Button" style="CloseButton">
+		<attribute name="Name" value="Button_Contour_Close" />
+		<attribute name="Position" value="-2 2" />
+		<attribute name="Horiz Alignment" value="Right" />
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="Button_Contour_Apply" />
+		<attribute name="Position" value="20 400" />
+		<attribute name="Size" value="150 30" />
+		<element type="Text">
+			<attribute name="Name" value="Button_Contour_Apply_Text" />
+			<attribute name="Horiz Alignment" value="Center" />
+			<attribute name="Vert Alignment" value="Center" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="Apply" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Acceleration" />
+		<attribute name="Position" value="20 200" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="Angular acc-tion - e - [Rad/s^2]" />
+		<element type="Text">
+			<attribute name="Name" value="Text_Contour_Acceleration_Value" />
+			<attribute name="Position" value="265 1" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="0" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Angular_Velocity" />
+		<attribute name="Position" value="20 220" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="Angular velocity w - [Rad/s]" />
+		<element type="Text">
+			<attribute name="Name" value="Text_Contour_Angular_Velocity_Value" />
+			<attribute name="Position" value="265 1" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="0" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Torque" />
+		<attribute name="Position" value="20 240" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="Torque - M [N * m]" />
+		<element type="Text">
+			<attribute name="Name" value="Text_Contour_Torque_Value" />
+			<attribute name="Position" value="265 1" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="0" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Option" />
+		<attribute name="Position" value="40 320" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="13" />
+		<attribute name="Text" value="Gravity option" />
+		<attribute name="Text Effect" value="Stroke" />
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_Gravity" />
+		<attribute name="Position" value="20 360" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="Gravity - [m/s^2]" />
+		<element type="LineEdit">
+			<attribute name="Name" value="Edit_Countour_Gravity" />
+			<attribute name="Position" value="238 -1" />
+			<attribute name="Size" value="40 20" />
+			<attribute name="Horiz Alignment" value="Center" />
+			<element type="Text" internal="true" style="none">
+				<attribute name="Top Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Top Right Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Right Color" value="0.9 1 0.9 1" />
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Size" value="4 15" />
+			</element>
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_System_Friction" />
+		<attribute name="Position" value="20 260" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="System friction - gamma" />
+		<element type="LineEdit">
+			<attribute name="Name" value="Edit_Contour_System_Friction" />
+			<attribute name="Position" value="175 -1" />
+			<attribute name="Size" value="40 20" />
+			<attribute name="Horiz Alignment" value="Center" />
+			<element type="Text" internal="true" style="none">
+				<attribute name="Top Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Top Right Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Left Color" value="0.9 1 0.9 1" />
+				<attribute name="Bottom Right Color" value="0.9 1 0.9 1" />
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Size" value="4 15" />
+			</element>
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="Button_Contour_Reset" />
+		<attribute name="Position" value="20 440" />
+		<attribute name="Size" value="150 30" />
+		<element type="Text">
+			<attribute name="Name" value="Button_Contour_Reset_Text" />
+			<attribute name="Horiz Alignment" value="Center" />
+			<attribute name="Vert Alignment" value="Center" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="Reset" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Text_Contour_a_koef" />
+		<attribute name="Position" value="20 280" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Text" value="a (Amperes force/Gravity force)" />
+		<element type="Text">
+			<attribute name="Name" value="Text_Contour_a_koef_value" />
+			<attribute name="Position" value="265 1" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="0" />
+		</element>
+	</element>
+</element>
