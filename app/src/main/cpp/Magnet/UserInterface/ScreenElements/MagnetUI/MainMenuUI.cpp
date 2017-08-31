@@ -1,6 +1,6 @@
 #include "MagnetStd.h"
 
-#include <Simulation/UserInterface/UserInterface.h>
+#include <GameEngine/UserInterface/UserInterface.h>
 #include "Events/MagnetEvents.h"
 #include "MainMenuUI.h"
 

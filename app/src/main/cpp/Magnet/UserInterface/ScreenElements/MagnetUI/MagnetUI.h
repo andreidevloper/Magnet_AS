@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Simulation/UserInterface/UserInterface.h"
+#include "GameEngine/UserInterface/UserInterface.h"
 
 class MagnetComponent;
 

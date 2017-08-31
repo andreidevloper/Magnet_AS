@@ -1,8 +1,8 @@
 #include "MagnetStd.h"
 
-#include <Simulation/UserInterface/UserInterface.h>
-#include <Simulation/GameLogic/BaseGameLogic.h>
-#include <Simulation/UserInterface/LayoutUtility.h>
+#include <GameEngine/UserInterface/UserInterface.h>
+#include <GameEngine/GameLogic/BaseGameLogic.h>
+#include <GameEngine/UserInterface/LayoutUtility.h>
 
 #include "GameLogic/MagnetLogic.h"
 #include "Events/MagnetEvents.h"

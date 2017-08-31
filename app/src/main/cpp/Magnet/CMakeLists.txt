@@ -49,7 +49,7 @@ if(ANDROID)
 
     # For c++_shared AS has bug https://issuetracker.google.com/issues/37139640
     # Currently use gnustl_shared STL lib for Urho3D and Contour application
-    set (STL_LIBRARY_DIR ${PROJECTROOT}/main/cpp/Urho3D_Framework_1_7/Android_Build_${ANDROID_ABI}_${CMAKE_BUILD_TYPE}/libs/${ANDROID_ABI})
+    set (STL_LIBRARY_DIR ${PROJECTROOT}/main/cpp/Urho3D_Framework_1_7/Android_Build_Magnet_${ANDROID_ABI}_${CMAKE_BUILD_TYPE}/libs/${ANDROID_ABI})
 
     message(STATUS "stl_library_dir folder path (for Urho3D Toolchains/Android.cmake module) = ${STL_LIBRARY_DIR}")
     message(STATUS "${ANDROID_STL} STL library will used for ${TARGET_NAME} project")
@@ -96,7 +96,7 @@ define_source_files (EXTRA_H_FILES ${COMMON_SAMPLE_H_FILES} GLOB_CPP_PATTERNS *.
 setup_main_executable ()
 
 #attempt to link
-target_link_libraries(Magnet Urho3D Simulation)
+target_link_libraries(Magnet Urho3D GameEngine)
 
 # For VISUAL STUDIO generator
 if (MSVC)

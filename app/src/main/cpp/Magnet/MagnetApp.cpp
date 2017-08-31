@@ -1,17 +1,14 @@
 #include "MagnetStd.h"
 
-#include "Simulation/Events/SimulationsEvents.h"
-#include "Simulation/Mainloop/Initialization.h"
-
+#include "GameEngine/Events/GameEngineEvents.h"
 #include "GameLogic/MagnetLogic.h"
-#include "GameView/MagnetView.h"
 
 #include "MagnetApp.h"
 
 // Application entry-point
 URHO3D_DEFINE_APPLICATION_MAIN(MagnetApp)
 
-MagnetApp::MagnetApp(Context* context) : SimulationApp(context)
+MagnetApp::MagnetApp(Context* context) : GameEngineApp(context)
 {
 	g_pApp = this;
 	m_bIsInit = false;
@@ -25,7 +22,7 @@ MagnetApp::~MagnetApp()
 
 void MagnetApp::Setup()
 {
-	SimulationApp::Setup();
+    GameEngineApp::Setup();
 
 
 }
@@ -33,7 +30,7 @@ void MagnetApp::Setup()
 
 void MagnetApp::Start()
 {
-	SimulationApp::Start();
+    GameEngineApp::Start();
 
     SendEvent(EVENT_DATA_START_GAME);
 	m_bIsInit = true;
@@ -41,7 +38,7 @@ void MagnetApp::Start()
 
 void MagnetApp::Stop()
 {
-	SimulationApp::Stop();
+    GameEngineApp::Stop();
 
 }
 

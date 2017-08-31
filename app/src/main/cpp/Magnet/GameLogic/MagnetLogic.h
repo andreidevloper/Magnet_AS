@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Simulation/GameLogic/BaseGameLogic.h"
+#include "GameEngine/GameLogic/BaseGameLogic.h"
 
 class BatteryComponent;
 class ContourComponent;

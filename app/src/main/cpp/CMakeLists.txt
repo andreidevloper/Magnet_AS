@@ -14,5 +14,5 @@ if (COMMAND cmake_policy)
     endif ()
 endif ()
 
-add_subdirectory(Simulation)
+add_subdirectory(GameEngine)
 add_subdirectory(Magnet)

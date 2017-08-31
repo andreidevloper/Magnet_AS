@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Simulation/UserInterface/HumanView/HumanView.h"
+#include "GameEngine/UserInterface/HumanView/HumanView.h"
 
 class MagnetUI;
 class BatteryUI;

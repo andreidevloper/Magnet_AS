@@ -5,7 +5,7 @@
 #include "UserInterface/ScreenElements/MagnetUI/BatteryUI.h"
 #include "UserInterface/ScreenElements/MagnetUI/ContourUI.h"
 #include "UserInterface/ScreenElements/MagnetUI/MainMenuUI.h"
-#include "Simulation/Controllers/MovementController.h"
+#include "GameEngine/Controllers/MovementController.h"
 
 #include "MagnetView.h"
 

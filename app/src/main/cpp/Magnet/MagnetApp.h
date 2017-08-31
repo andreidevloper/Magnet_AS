@@ -4,7 +4,7 @@
 // MagnetApp - Application class contains all necessary components in order to run program correctly.
 //----------------------------------------------------------------------------------------------------
 
-class MagnetApp : public SimulationApp
+class MagnetApp : public GameEngineApp
 {
 public:
 	// Constructors
