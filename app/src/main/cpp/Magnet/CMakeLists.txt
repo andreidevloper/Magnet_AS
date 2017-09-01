@@ -54,8 +54,8 @@ if(ANDROID)
     message(STATUS "stl_library_dir folder path (for Urho3D Toolchains/Android.cmake module) = ${STL_LIBRARY_DIR}")
     message(STATUS "${ANDROID_STL} STL library will used for ${TARGET_NAME} project")
 
-    set (ENV{URHO3D_HOME} ${PROJECTROOT}/main/cpp/Urho3D_Framework_1_7/Android_Build_Magnet_${ANDROID_ABI}_${CMAKE_BUILD_TYPE})
-    set (URHO3D_HOME ${PROJECTROOT}/main/cpp/Urho3D_Framework_1_7/Android_Build_Magnet_${ANDROID_ABI}_${CMAKE_BUILD_TYPE})
+    set (ENV{URHO3D_HOME} ${PROJECTROOT}/main/cpp/Urho3D_Framework_1_7/Android_Build_${ANDROID_ABI}_${CMAKE_BUILD_TYPE})
+    set (URHO3D_HOME ${PROJECTROOT}/main/cpp/Urho3D_Framework_1_7/Android_Build_${ANDROID_ABI}_${CMAKE_BUILD_TYPE})
     message(STATUS "Urho3D framework build's folder path = ${URHO3D_HOME}")
 
     # Set CMAKE modules/toolchains
