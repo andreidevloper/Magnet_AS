@@ -66,7 +66,7 @@ void BaseGameLogic::VOnUpdate(float timeStep)
 			{
 				// The server sends us the level name as a part of the login message. 
 				// We have to wait until it arrives before loading the level
-				if (!g_pApp->GetSimulationOptions().GetSceneName().Empty())
+				if (!g_pApp->GetGameOptions().GetSceneName().Empty())
 				{
 					VChangeState(BGS_LoadingGameEnvironment);
 				}
@@ -182,9 +182,7 @@ bool BaseGameLogic::VLoadGame(String levelResource)
 	// call the delegate load function
 	if (!VLoadGameDelegate(levelResource))
 		return false;  // no error message here because it's assumed VLoadGameDelegate() kicked out the error
-		
-	// trigger the Environment Loaded Game event - only then can player actors and AI be spawned!
-	// Not used yet. 23.08.2017.
+
 	SendEvent(EVENT_DATA_ENVIRONMENT_LOADED);
 		
 	return true;

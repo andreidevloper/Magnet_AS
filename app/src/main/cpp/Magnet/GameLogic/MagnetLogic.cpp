@@ -37,7 +37,7 @@ bool MagnetLogic::VInitialize()
 		return false;
 	}
 
-	g_pApp->GetSimulationOptions().SetSceneName("Scenes/Electromagnetism_contour_NEW.xml");
+	g_pApp->GetGameOptions().SetSceneName("Scenes/Electromagnetism_contour_NEW.xml");
 	SubscribeToEvent(Urho3D::E_UPDATE, URHO3D_HANDLER(MagnetLogic, HandlePhysicsStepDelegate));
 
 

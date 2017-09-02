@@ -166,4 +166,6 @@ using namespace Urho3D;
 #include "Interfaces/Interfaces.h"
 #include "GameEngineApp.h"
 
-
+#ifdef  MSVC
+    #include <vld.h>
+#endif

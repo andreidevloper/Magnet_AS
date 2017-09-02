@@ -25,12 +25,12 @@ void MovementController::SetObject(SharedPtr<Node> newObject)
 
 bool MovementController::VOnKeyDown(const int c)
 {
-
+	return true;
 }
 
 bool MovementController::VOnKeyUp(const int c)
 {
-
+	return true;
 }
 
 

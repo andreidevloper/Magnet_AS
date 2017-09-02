@@ -66,7 +66,7 @@ public:
 	inline String GetCurrentWorkDirectory() { return m_CurrentWorkDirectory; }
 	inline String GetSaveDirectory() { return m_SaveDirectory; }
 	inline IntVector2 GetCurrentWindowSize() { return m_BaseGameOptions.GetWindowsOptions().m_ScreenSize; }
-	inline BaseGameOptions& GetSimulationOptions() { return m_BaseGameOptions;  }
+	inline BaseGameOptions& GetGameOptions() { return m_BaseGameOptions;  }
 
     inline void SetTouchEnabled(bool touchEnabled) { m_bIsTouchEnabled = touchEnabled; }
 	inline bool IsTouchEnabled() { return m_bIsTouchEnabled; }
