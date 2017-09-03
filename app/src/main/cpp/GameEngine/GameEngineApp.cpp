@@ -30,9 +30,9 @@ void GameEngineApp::Start()
 {
     m_pResourceCache = GetSubsystem<ResourceCache>();
     m_pFileSystem = GetSubsystem<FileSystem>();
-    if (!m_BaseGameOptions.InitBaseGameOptions(String("System/SimulationOptions.xml")))
+    if (!m_BaseGameOptions.InitBaseGameOptions(String("System/GameOptions.xml")))
     {
-        URHO3D_LOGERROR("Failed to load simulation options!");
+        URHO3D_LOGERROR("Failed to load game options!");
     }
 
 	// Save all necessary subsystems in Application Layer 

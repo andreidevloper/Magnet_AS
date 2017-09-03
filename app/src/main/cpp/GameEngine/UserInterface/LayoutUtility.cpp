@@ -1,7 +1,4 @@
-// Add AlphaEngine base
 #include "GameEngineStd.h"
-
-// Add LayoutUtil
 #include "LayoutUtility.h"
 
 float LayoutUtility::g_TextFontSize = 10.0f;
